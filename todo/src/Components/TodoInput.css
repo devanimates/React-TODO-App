@@ -1,0 +1,30 @@
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    
+    
+}
+
+           
+.input-todo-box{
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px;
+    margin: 15px;
+    font-size: large;
+    color: black;
+    font-weight: 600;
+    
+}
+
+.input-btn-box {
+    border-radius: 8px;
+    border: 2px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(158, 158, 211);
+    color: white;
+    cursor: pointer;
+  }

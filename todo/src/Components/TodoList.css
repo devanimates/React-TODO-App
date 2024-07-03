@@ -1,0 +1,42 @@
+.list-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 5px;
+    
+}
+
+
+.list-items{
+    list-style-type: none;
+    /* background-color: #596e8b; */
+    border:2px solid rgb(161, 158, 158);
+    color:white;
+    padding:3px;
+    padding-left: 5px;
+    border-radius: 5px; 
+    width: 500px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+
+  .icons{
+    position: absolute;
+    right: 10px;
+  }
+  .icons i{
+    margin: 4px;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.1s;   
+  }
+  .icons i:hover{
+    transform: scale(1.2);  
+  }
+  .icon-delete:hover{
+    color: red;
+  }
